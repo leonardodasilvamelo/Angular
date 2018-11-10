@@ -1,0 +1,18 @@
+<section>
+  <article>
+    <h3>
+      <p>String renderizada com interpolação:{{url}}</p>
+      <p>Soma de 1+ 1 é igual {{1+1}}</p>
+      <p>Resultado de 1+ 1 é igual {{getValor()}}</p>
+      <p>Estou gostando do curso {{ getCurtirCurso() && curtir2 }}</p>
+    </h3>
+  </article>
+
+  <article>
+    <h3>Imagem</h3>
+    <img src={{urlImagem}}>
+    <img [src]="urlImagem">
+    <img bind-src="urlImagem">
+
+  </article>
+</section>
