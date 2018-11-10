@@ -1,0 +1,14 @@
+//Comando para transformar seu typscript para javascript
+tsc main.ts
+
+
+//Estudar ecmascript
+
+//Comando para criar um componente
+ng g c nomedocompomente
+
+//Comando para criar um modulo
+ng g m cursos
+
+//Comando para criar um componente ligado no modulo
+ng g c cursos
